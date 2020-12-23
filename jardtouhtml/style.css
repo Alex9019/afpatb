@@ -3,8 +3,9 @@ nav {
     background-color: black;
     width: 60%;
 }
-a nav{
-    
+a {
+    position: relative;
+    top: 14px;
 }
 
 li {
@@ -36,6 +37,19 @@ footer {
     width: 60% ;
     height: 50px ;
 }
+footer>ul>li{
+    position: relative;
+    top: 14px;
+}
 #promo {
     width:60%
+}
+header p {
+    display: none;
+}
+#logo:after {
+    content: "Tout le jardin!";
+}
+h2 p{
+    color: blue;
 }
