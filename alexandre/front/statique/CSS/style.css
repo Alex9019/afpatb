@@ -1,14 +1,10 @@
-
+html {
+    font-size: 100%;
+}
 /* barre de navigation en noir + hauteur */
 nav {
+    display: flex;
     background-color: black;
-    height: 50px;
-}
-
-/* liens au milieu de la barre noire de nav  */
-a {
-    position: relative;
-    top: 14px;
 }
 
 /* disposition en ligne des liens de navigation  */
@@ -34,16 +30,10 @@ a:focus {
 }
 /* couleur du footer , du texte du footer et la hauteur de la bande noire en px  */
 footer {
+    display: flex;
     background-color: black;
     color: white;
-    height: 50px ;
-}
-
-/* position de la liste (en ligne) des pseudos liens dans le footer  */
-
-footer>ul>li{
-    position: relative;
-    top: 14px;
+    align-items: center;
 }
 /* taille de l'image promo */
 #promo {
@@ -114,27 +104,59 @@ Colonne droite ici pour la page contact */
     text-align: left;
     flex-grow: 2;
 }
-
 #corphead {
     display: flex;
     flex-flow: row ;
     justify-content:flex-start;
     align-items: flex-end;
 }
+/* taille logo en pourcent  */
 #logo {
     height: 80%;
 }
+/* texte tout le jardin rajouté dans l'exercice */
 #texteh {
     margin-left: 20%;
     font-size: 35px;
 }
-/* #logoh {
-    align-self: flex-start;
+
+/* partie pour les écrans inférieurs ou égaux a 768px */
+
+@media screen and (max-width: 768px)
+{
+    #promo {
+        max-width: 100%;
+        height: auto;
+    }
+    #nav {
+        display: flex;
+        max-width: 100%;
+        height: auto;
+    }
+    #texte {
+        font-size: 1.3rem;
+    }
+    #logo {
+        max-width: 100%;
+        height: auto;
+    }
+    #texteh {
+        display: none;
+    }
+    #colonne {
+        display: none;
+    }
+    li {
+        display: list-item;
+        font-size: 1.3rem;
+    }
+    #colonne2 {
+        display: none;
+    }
+    #colonne3 {
+        display: none;
+    }
 }
-#texteh {
-    align-self:flex-end;
-    font-size: 200%;
-    margin-left: 20px; */
 
 
 
