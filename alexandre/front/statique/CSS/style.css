@@ -1,0 +1,140 @@
+
+/* barre de navigation en noir + hauteur */
+nav {
+    background-color: black;
+    height: 50px;
+}
+
+/* liens au milieu de la barre noire de nav  */
+a {
+    position: relative;
+    top: 14px;
+}
+
+/* disposition en ligne des liens de navigation  */
+li {
+    display: inline;
+}
+
+/* couleurs des liens non cliqués */
+a:link {
+color: white;
+}
+/* couleur des liens lors du click  */
+a:hover {
+    color: tomato;
+}
+/* couleur des liens déjà visités  */
+a:visited {
+    color: aqua;
+}
+/* aucune putain d'idée j''arrive pas a faire la diff avec au dessus  */
+a:focus {
+    color: brown;
+}
+/* couleur du footer , du texte du footer et la hauteur de la bande noire en px  */
+footer {
+    background-color: black;
+    color: white;
+    height: 50px ;
+}
+
+/* position de la liste (en ligne) des pseudos liens dans le footer  */
+
+footer>ul>li{
+    position: relative;
+    top: 14px;
+}
+/* taille de l'image promo */
+#promo {
+    width: 100% ;
+}
+/* enlève le display de "la qualité depuis 70 ans " car disparue de l'exercice */
+header p {
+    display: none;
+}
+/* taille logo jarditou */
+#logo {
+    width: 300px ;
+    height: 100px ;
+}
+
+/* colonne droite ici pour la page index  */
+
+#corps {
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    align-items: stretch;
+}
+#texte {
+    width: 70%;
+}
+#colonne {
+    background-color: dimgray;
+    text-align: left;
+    flex-grow: 2;
+}
+#ligne {
+    display: none;
+}
+
+/* colonne droite ici pour la page tableaux */
+/* première div flex */
+#corpstablo {
+    display: flex;
+}
+/* div de la colonne + couleur + alignement texte + taille max a 2*  */
+#colonne2 {
+    background-color: dimgray;
+    text-align: left;
+    flex-grow: 2;
+}
+/* rétrécisemment div box tableau */
+#tablo {
+    width: 70%;
+}
+/* pas sur de l'utilité pour le hr du tableau */
+#lignetablo {
+    width: auto;
+}
+/* 
+Colonne droite ici pour la page contact */
+/* display flex de la div principale */
+#corpcont {
+    display: flex;
+}
+/* taille du tableau contact  */
+#tablo1 {
+    width: 70%;
+}
+/* réglages de la div colonne cf au dessus  */
+#colonne3 {
+    background-color: dimgray;
+    text-align: left;
+    flex-grow: 2;
+}
+
+#corphead {
+    display: flex;
+    flex-flow: row ;
+    justify-content:flex-start;
+    align-items: flex-end;
+}
+#logo {
+    height: 80%;
+}
+#texteh {
+    margin-left: 20%;
+    font-size: 35px;
+}
+/* #logoh {
+    align-self: flex-start;
+}
+#texteh {
+    align-self:flex-end;
+    font-size: 200%;
+    margin-left: 20px; */
+
+
+
