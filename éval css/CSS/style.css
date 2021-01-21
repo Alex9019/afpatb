@@ -135,6 +135,7 @@ Colonne droite ici pour la page contact */
     }
     #texte {
         font-size: 1.3rem;
+        width: 100%;
     }
     #logo {
         max-width: 100%;
@@ -156,6 +157,13 @@ Colonne droite ici pour la page contact */
     #colonne3 {
         display: none;
     }
+    #tablo1 {
+        width: 100%;
+    }
+#tablo {
+    width: 100%;
+    overflow: auto;
+}
 }
 
 
