@@ -33,12 +33,37 @@
                     <a class="nav-link" href="../bootstrap/contact.html" tabindex="-1" aria-disabled="true">contactez jarditou</a>
                   </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0" action="xx.php" method="POST">
                   <input class="form-control mr-sm-2" type="search" placeholder="Recherchez sur le site" aria-label="Search">
                   <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
-                </form>
+                
         </nav>
-                <div class="p-0 col-12 col-md-12 col-lg-12"><img src="../bootstrap/IMG/promotion.jpg" class="w-100 img-fluid" title="depensez votre argent chez nous PUTAIN" alt="Image de promotion de lames de terasses" id="logo"></div>
+
+                <div class="p-0 mb-2 col-12 col-md-12 col-lg-12v shadow"><img src="../bootstrap/IMG/promotion.jpg" class="w-100 img-fluid" title="depensez votre argent chez nous PUTAIN" alt="Image de promotion de lames de terasses" id="logo"></div>
+              <div id="formulaire" class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <form class="shadow mb-3">
+                    <label class=" col-12 col-sm-12 col-md-6 col-ld-6" for="tutu">Nom *</label>
+                    <input type="text" class="col-12 col-sm-12 col-md-6 col-lg-6 form-control" id="tutu" placeholder="Veuillez entrer votre nom" required>
+                    <br>
+                    <label for="formGroupExampleInput2">Prénom *</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Veuillez entrer votre prénom">
+                    <br>
+                    <label for="sx"> Sexe *</label><br>
+                    <input  id="sx" type="radio" name="sexe" value="homme" required> hommme 
+                    <input type="radio" name="sexe" value="femme"> femme
+                    <input type="radio" name="sexe" value="neutre"> neutre
+                  <br><br>
+                  <label for="example-email-input" class=" pr-0 ml-4 mr-5" required>Email *</label>
+                      <input class="form-control" type="email" placeholder="votre email" id="example-email-input">
+                      <label class="control-label" for="date">Date</label>
+                      <input class="form-control" id="date" name="date" placeholder="JJ/MM/AAAA" type="text"/>
+                    </div>
+
+
+
+
+                </form>
+                <br>
 
 
 
@@ -58,15 +83,28 @@
 
 
 
-
-
-
-
-
-
-
-
-
+        </div>
+                <footer class="footer p-0 col-12 col-md-12 col-lg-12">
+                  <nav class="navbar shadow navbar-expand-lg navbar-light bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="../bootstrap/IMG/404-1.png">Mentions légales</a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="../bootstrap/IMG/404-2.jpg">Horaires</a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="../bootstrap/IMG/404-3.png" tabindex="-1">Plan du site</a>
+                            </li>
+                          </ul>
+              
+                   </footer>
+          </div>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
