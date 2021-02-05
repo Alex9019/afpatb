@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description courant="tempoz PREND_LA_VALEUR 1" texte=""/>
+    <description courant="AFFICHER &quot; de gagner&quot;" texte=""/>
     <extension extnom="inactif"/>
-    <fonction fctetat="inactif" fctcode=""/>
-    <F2 F2para="" F2defaut="" F2lignes="" F2etat="inactif"/>
+    <fonction fctcode="" fctetat="inactif"/>
+    <F2 F2defaut="" F2lignes="" F2para="" F2etat="inactif"/>
     <repere repcode="-10#10#-10#10#2#2" repetat="inactif"/>
-    <param maxBoucle="500000" totalAffichages="1000" totalBoucles="5000000" epaisseurLigne="2" arrondiAuto="vrai" nbDecimales="8" epaisseurPoint="2"/>
+    <param epaisseurPoint="2" totalAffichages="1000" maxBoucle="500000" nbDecimales="8" epaisseurLigne="2" arrondiAuto="vrai" totalBoucles="5000000"/>
     <item code="200#declarationfonctions" algoitem="FONCTIONS_UTILISEES"/>
     <item code="100#declarationsvariables" algoitem="VARIABLES">
         <item code="1#NOMBRE#chevp" algoitem="chevp EST_DU_TYPE NOMBRE"/>
@@ -36,7 +36,7 @@
             <item code="14#finpour" algoitem="FIN_POUR"/>
         </item>
         <item code="5#X#tempox/tempoy#pasliste" algoitem="X PREND_LA_VALEUR tempox/tempoy"/>
-        <item code="4#dans l'ordre, il y a une chance sur #0" algoitem="AFFICHER &quot;dans l'ordre, il y a une chance sur &quot;"/>
+        <item code="4#dans l'ordre, il y a une chance sur #0" algoitem="AFFICHER &quot;dans l'ordre, il y a une chance sur &quot;"/>
         <item code="3#X#0#pasliste" algoitem="AFFICHER X"/>
         <item code="4# de gagner#1" algoitem="AFFICHER &quot; de gagner&quot;"/>
         <item code="12#i#1#chevj" algoitem="POUR i ALLANT_DE 1 A chevj">
@@ -45,9 +45,9 @@
             <item code="14#finpour" algoitem="FIN_POUR"/>
         </item>
         <item code="5#Y#tempox/(tempoz*tempoy)#pasliste" algoitem="Y PREND_LA_VALEUR tempox/(tempoz*tempoy)"/>
-        <item code="4#dans le désordre, il y a #0" algoitem="AFFICHER &quot;dans le désordre, il y a &quot;"/>
+        <item code="4#dans le désordre, il y a une chance sur #0" algoitem="AFFICHER &quot;dans le désordre, il y a une chance sur &quot;"/>
         <item code="3#Y#0#pasliste" algoitem="AFFICHER Y"/>
-        <item code="4#chances de gagner#0" algoitem="AFFICHER &quot;chances de gagner&quot;"/>
+        <item code="4# de gagner#0" algoitem="AFFICHER &quot; de gagner&quot;"/>
     </item>
     <item code="102#finalgo" algoitem="FIN_ALGORITHME"/>
 </Algo>
